@@ -100,6 +100,7 @@ namespace StudentServiceTesting
             var result=await _studentService.DeleteStudentAsync(1);
              Assert.Equal(1, result);
         }
+
         [Fact]
         public async Task DeleteStudent_CheckCondition()
         {
